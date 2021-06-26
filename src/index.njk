@@ -5,7 +5,7 @@ layout: 'base.njk'
 <h1 class="center-text">Ønskeliste</h1>
 
 <div class="gifts">
-    {% for post in collections.gift %}
+    {% for post in collections.gave %}
     <div class="gift--card card">
         <h2 class="gift--title">{{ post.data.title }}</h2>
         <img class="gift--image" src="{{ post.data.img }}" alt="{{ post.data.imgAlt }}">

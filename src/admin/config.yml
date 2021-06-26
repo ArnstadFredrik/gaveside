@@ -15,4 +15,4 @@ collections:
       - {label: "Beskrivelse", name: "desc" , widget: "string"}
       - {label: "Bilde", name: "img" , widget: "image"}
       - {label: "Bildetekst", name: "imgAlt" , widget: "string"}
-      - {label: "Hvem", name: "tags" , widget: "list", default: "gift"}
+      - {label: "Hvem", name: "tags" , widget: "list", default: "gave"}
