@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+:root {
+	--clr-primary-900: hsla(176, 20%, 10%, 1);
+	--clr-primary-800: hsla(176, 20%, 20%, 1);
+	--clr-primary-700: hsla(176, 20%, 30%, 1);
+	--clr-primary-600: hsla(176, 20%, 40%, 1);
+	--clr-primary-500: hsla(176, 20%, 50%, 1);
+	--clr-primary-400: hsla(176, 20%, 60%, 1);
+	--clr-primary-300: hsla(176, 20%, 70%, 1);
+	--clr-primary-200: hsla(176, 20%, 80%, 1);
+	--clr-primary-100: hsla(176, 20%, 90%, 1);
+
+	--clr-second-100: hsla(7, 23%, 83%, 1);
+	--clr-second-600: hsla(7, 23%, 65%, 1);
+	--clr-second-700: hsla(7, 23%, 35%, 1);
+	--clr-second-800: hsla(7, 23%, 25%, 1);
+	--clr-second-900: hsla(7, 23%, 15%, 1);
+
+	--clr-font: var(--clr-primary-900);
+	--clr-white: hsl(0, 0%, 90%, 1);
+
+	--ff-heading: 'Nunito', sans-serif;
+	--ff-body: var(--ff-heading);
+}
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	display: grid;
+	justify-content: center;
+	font-family: var(--ff-body);
+	width: clamp(19em, 70%, 60em);
+	min-height: 100vh;
+	color: var(--clr-font);
+}
+
+nav {
+	color: var(--clr-primary-900);
+	font-size: 1.3rem;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+li:hover a {
+	outline: 1em;
+}
+
+.center-self {
+	justify-self: center;
+}
+
+.center-content {
+	justify-content: center;
+	text-align: center;
+}
+
+.center-text {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+}
+
+.gifts {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1em;
+}
+
+@media (min-width: 40em) {
+	.gifts {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.card {
+	background: var(--clr-primary-200);
+	padding: 1em;
+	color: var(--clr-primary-900);
+}
