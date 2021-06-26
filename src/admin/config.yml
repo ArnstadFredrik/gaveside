@@ -8,11 +8,11 @@ collections:
     label: Gaver
     folder: "src/gifts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields: 
       - {label: "Tittel", name: "title" , widget: "string"}
       - {label: "Hvem", name: "hvem" , widget: "string"}
       - {label: "Beskrivelse", name: "desc" , widget: "string"}
       - {label: "Bilde", name: "img" , widget: "image"}
       - {label: "Bildetekst", name: "imgAlt" , widget: "string"}
-      - {label: "Hvem", name: "tags" , widget: "list", default: "gave"}
+      - {label: "Hvem", name: "tags" , widget: "list", default: ["gave"]}
