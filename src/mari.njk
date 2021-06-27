@@ -1,0 +1,9 @@
+---
+layout: 'gifts.njk'
+---
+
+{% for post in collections.gave %}
+    {% if 'mari' in post.data.hvem%}
+        {% include 'card.njk' %}
+    {% endif %}
+{% endfor %}

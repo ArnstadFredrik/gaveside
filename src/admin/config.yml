@@ -15,4 +15,5 @@ collections:
       - {label: "Beskrivelse", name: "desc" , widget: "string"}
       - {label: "Bilde", name: "img" , widget: "image"}
       - {label: "Bildetekst", name: "imgAlt" , widget: "string"}
-      - {label: "Hvem", name: "tags" , widget: "list", default: ["gave"]}
+      - {label: "URL", name: "externalUrl", widget: "string" }
+      - {label: "Tags", name: "tags" , widget: "list", default: ["gave"]}
