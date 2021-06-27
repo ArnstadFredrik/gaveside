@@ -1,0 +1,8 @@
+.frame-content {
+	display: grid;
+	/* grid-template-rows: 10em 12em 2em 2em auto 3em; */
+	background: var(--clr-primary-200);
+	padding: 1em;
+	color: var(--clr-primary-900);
+	width: auto;
+}
