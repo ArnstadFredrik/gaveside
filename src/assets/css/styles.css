@@ -25,6 +25,10 @@
 	--ff-body: var(--ff-heading);
 }
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	min-height: 100vh;
 }
@@ -84,7 +88,13 @@ img {
 	gap: 1em;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 45em) {
+	.gifts {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 55em) {
 	.gifts {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -94,4 +104,12 @@ img {
 	background: var(--clr-primary-200);
 	padding: 1em;
 	color: var(--clr-primary-900);
+	width: auto;
+}
+
+.gift--image {
+	width: 100%;
+	object-fit: cover;
+	height: auto;
+	background-color: white;
 }
