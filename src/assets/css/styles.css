@@ -41,11 +41,19 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	display: grid;
-	justify-content: center;
+	grid-template-rows: 15em auto 10em;
+	justify-content: stretch;
 	font-family: var(--ff-body);
-	width: clamp(19em, 70%, 60em);
+	/* width: clamp(19em, 70%, 60em); */
+	width: min(90%, 60em);
 	min-height: 100vh;
 	color: var(--clr-font);
+}
+
+@media (min-width: 45em) {
+	body {
+		grid-template-rows: 7em auto 10em;
+	}
 }
 
 nav {
@@ -57,7 +65,7 @@ nav ul {
 	display: flex;
 	flex-direction: column;
 	list-style-type: none;
-	justify-content: space-evenly;
+	justify-content: center;
 	padding: 0;
 }
 
@@ -142,4 +150,8 @@ img {
 	object-fit: cover;
 	height: auto;
 	background-color: white;
+}
+
+footer {
+	align-self: end;
 }
