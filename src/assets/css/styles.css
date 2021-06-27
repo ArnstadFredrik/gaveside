@@ -59,6 +59,7 @@ h2,
 h3,
 h4 {
 	margin-bottom: 1em;
+	text-transform: uppercase;
 }
 
 @media (min-width: 45em) {
@@ -166,6 +167,12 @@ img {
 	object-fit: cover;
 	height: auto;
 	background-color: white;
+}
+
+.gift--antall::before,
+.gift--hvem::before {
+	font-weight: 900;
+	font-style: italic;
 }
 
 .gift--antall::before {
