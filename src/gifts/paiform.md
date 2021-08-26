@@ -1,6 +1,6 @@
 ---
 title: Paiform
-hvem: begge
+hvem: fredrik
 desc: Paiform med løs bunn
 img: /assets/img/paiform.webp
 imgAlt: Paiform med løs bunn
