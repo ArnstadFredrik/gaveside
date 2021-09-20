@@ -1,6 +1,6 @@
 ---
 title: Gullring
-hvem: Mari
+hvem: mari
 desc: Nora Gullring.
 img: /assets/img/gullring.webp
 imgAlt: Nora Gullring
