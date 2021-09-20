@@ -1,6 +1,6 @@
 ---
 title: «hvem har sagt»
-hvem: begge
+hvem: begge,mari
 desc: Sögne krus hvit, med Trygve Skaug dikt «Hvem har sagt»
 img: /assets/img/hvem-har-sagt.webp
 imgAlt: Sögne krus hvit, med Trygve Skaug dikt «Hvem har sagt»
