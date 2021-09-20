@@ -1,6 +1,6 @@
 ---
 title: Kaffekanne
-hvem: mari
+hvem: begge
 desc: Eva Solo Kaffekanne i cactusfarge
 img: /assets/img/termokanne.webp
 imgAlt: Eva solo Termokanne, kaktusfarget

@@ -3,7 +3,7 @@ layout: 'gifts.njk'
 ---
 
 {% for post in collections.gave %}
-    {% if 'mari' in post.data.hvem%}
+    {% if ('mari' in post.data.hvem.toLowerCase()) or ('begge' in post.data.hvem.toLowerCase()) %}
         {% include 'card.njk' %}
     {% endif %}
 {% endfor %}
