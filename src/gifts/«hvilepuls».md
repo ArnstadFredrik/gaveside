@@ -7,4 +7,5 @@ imgAlt: Krus sort, «Hvilepuls»
 externalUrl: https://www.trygveskaug.no/varer/hvilepuls
 tags:
   - gave
+  - trygve
 ---

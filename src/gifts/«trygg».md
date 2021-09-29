@@ -7,4 +7,5 @@ imgAlt: Kopp sort med Trygve Skaug dikt «Trygg»
 externalUrl: https://www.trygveskaug.no/varer/trygg
 tags:
   - gave
+  - trygve
 ---

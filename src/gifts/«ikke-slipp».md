@@ -7,4 +7,5 @@ imgAlt: Sort kopp, «ikke-slipp»
 externalUrl: https://www.trygveskaug.no/varer/ikke-slipp
 tags:
   - gave
+  - trygve
 ---
