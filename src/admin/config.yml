@@ -12,7 +12,7 @@ collections:
     fields: 
       - {label: "Tittel", name: "title" , widget: "string"}
       - {label: "Hvem", name: "hvem" , widget: "string"}
-      - {label: "Beskrivelse", name: "desc" , widget: "string"}
+      - {label: "Beskrivelse", name: "desc" , widget: "string", required: false}
       - {label: "Bilde", name: "img" , widget: "image", required: false}
       - {label: "Bildetekst", name: "imgAlt" , widget: "string", required: false}
       - {label: "URL", name: "externalUrl", widget: "string", required: false}

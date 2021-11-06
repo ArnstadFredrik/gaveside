@@ -5,7 +5,9 @@
     {% endif %}
     <p class="gift--antall fs-small mb-0">{{ post.data.antall }}</p>
     <p class="gift--hvem fs-small">{{ post.data.hvem }}</p>
-    <p class="gift--description">{{ post.data.desc }}</p>
+    {% if (post.data.desc) %}
+    	<p class="gift--description">{{ post.data.desc }}</p>
+    {% endif %}
     {% if (post.data.externalUrl) %}
     	<a class="btn" href="{{ post.data.externalUrl }}">Se Mer</a>
     {% endif %}
