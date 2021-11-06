@@ -28,6 +28,14 @@
   --ff-body: var(--ff-heading);
 }
 
+.fs-small {
+	font-size: 0.75rem;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -162,6 +170,14 @@ img {
   width: auto;
 }
 
+.row-span-1 {
+	grid-row: span 1;
+}
+
+.row-span-2 {
+	grid-row: span 2;
+}
+
 .gift--card {
   margin: 0;
 }
@@ -171,7 +187,7 @@ img {
   object-fit: cover;
   height: auto;
   background-color: white;
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
 }
 
 .gift--antall::before,

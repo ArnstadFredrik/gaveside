@@ -13,7 +13,7 @@ collections:
       - {label: "Tittel", name: "title" , widget: "string"}
       - {label: "Hvem", name: "hvem" , widget: "string"}
       - {label: "Beskrivelse", name: "desc" , widget: "string"}
-      - {label: "Bilde", name: "img" , widget: "image"}
-      - {label: "Bildetekst", name: "imgAlt" , widget: "string"}
-      - {label: "URL", name: "externalUrl", widget: "string" }
+      - {label: "Bilde", name: "img" , widget: "image", required: false}
+      - {label: "Bildetekst", name: "imgAlt" , widget: "string", required: false}
+      - {label: "URL", name: "externalUrl", widget: "string", required: false}
       - {label: "Tags", name: "tags" , widget: "list", default: ["gave"]}
