@@ -36,6 +36,14 @@
 	margin-bottom: 0;
 }
 
+.mt-1 {
+	margin-top: 1em;
+}
+
+.border-radius-5 {
+	border-radius: 5px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -53,7 +61,7 @@ body {
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-rows: 15em auto 10em;
+  grid-template-rows: 24em auto 10em;
   justify-content: stretch;
   font-family: var(--ff-body);
   /* width: clamp(19em, 70%, 60em); */
@@ -72,7 +80,7 @@ h4 {
 
 @media (min-width: 45em) {
   body {
-    grid-template-rows: 7em auto 10em;
+    grid-template-rows: 11em auto 10em;
   }
 }
 
@@ -86,6 +94,7 @@ nav ul {
   flex-direction: column;
   list-style-type: none;
   justify-content: center;
+  gap: 1em;
   padding: 0;
 }
 
@@ -100,6 +109,7 @@ nav ul li {
 }
 
 nav a {
+	background-color: var(--clr-second-100);
   text-decoration: none;
   color: currentColor;
   padding: 1em 2em;
