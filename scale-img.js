@@ -1,9 +1,23 @@
 const im = require('imagemagick')
+const { readdir } = require('fs/promises')
 
-console.log('scale-img imagemagick test')
+const read = async (dir) => {
+	const files = await readdir(dir)
+	for (const file of files) {
+		console.log(file)
+	}
+}
 
-im.identify('./src/assets/img/foodprosessor.webp', function(err, data){
-	if (err) throw err
+try {
+	read('./')
+} catch (err) {
+	console.error(err)
+}
 
-	console.log(data)
-})
+// console.log('scale-img imagemagick test')
+
+// im.identify('./src/assets/img/foodprosessor.webp', function(err, data){
+// 	if (err) throw err
+// 
+// 	console.log(data)
+// })
