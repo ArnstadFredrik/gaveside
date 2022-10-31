@@ -1,5 +1,5 @@
 ---
-title: NIV Application Commentary Luke
+title: NIV Luke
 hvem: fredrik
 desc: Bibelkommentar til Lukasevangeliet
 img: /assets/img/niv-luke.webp
