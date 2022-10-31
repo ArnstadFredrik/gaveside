@@ -1,10 +1,10 @@
 ---
-title: Pokemon Legends Arceus
+title: Pokemon Scarlet
 hvem: fredrik
-desc: Pokmon Legends Arceus spill til Nintendo Switch
-img: /assets/img/legends-archeus.webp
-imgAlt: Boks art av Pokemon Legends Arceus
-externalUrl: https://www.elkjop.no/product/gaming/spill/spill-nintendo-switch/303142/pokemon-legends-arceus-switch
+desc: Pokmon Scarlet spill til Nintendo Switch
+img: /assets/img/pokemon-scarlet.webp
+imgAlt: Boks art av Pokemon Scarlet
+externalUrl: https://www.elkjop.no/product/gaming/spill/pokemon-scarlet-switch/433874
 tags:
   - gave
 ---
