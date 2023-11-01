@@ -1,5 +1,5 @@
 ---
-title: ZEC Lukas
+title: ZEC Luke
 hvem: fredrik
 desc: Eksegetisk bibelkommentar til Lukasevangeliet
 imgAlt: Omslag til zondervan exegetical commentary on luke
