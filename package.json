@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@dhemeira/convert-image": "^1.5.0"
   }
 }
