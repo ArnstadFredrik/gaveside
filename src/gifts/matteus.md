@@ -1,5 +1,5 @@
 ---
-title: ZEC Matteus
+title: ZEC Matthew
 hvem: fredrik
 desc: Eksegetisk kommentar til Matteus
 img: /assets/img/matthew.jpg
