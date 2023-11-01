@@ -1,5 +1,5 @@
 ---
-title: Johannes
+title: ZEC John
 hvem: fredrik
 desc: Bibelkommentar til Johannesevangneliet
 img: /assets/img/john.jpg
