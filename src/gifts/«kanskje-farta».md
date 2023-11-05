@@ -6,4 +6,5 @@ imgAlt: Kanskje farte, trygve skaug kopp
 externalUrl: https://sognehome.no/product/sogne-krus-trygve-skaug-hvit-kanskje-farta/
 tags:
   - gave
+  - trygve
 ---
