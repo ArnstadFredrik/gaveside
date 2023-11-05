@@ -6,4 +6,5 @@ imgAlt: Takk for her og nå kopp
 externalUrl: https://sognehome.no/product/sogne-krus-trygve-skaug-hvit-takk-for-her-og-na/
 tags:
   - gave
+  - trygve
 ---
