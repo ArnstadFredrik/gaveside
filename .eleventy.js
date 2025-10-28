@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
 		return collection.getAll().filter(post => post.data.hvem)
 	})
 
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 	eleventyConfig.addPassthroughCopy('./src/assets')
 	eleventyConfig.addPassthroughCopy('./src/admin')
 
