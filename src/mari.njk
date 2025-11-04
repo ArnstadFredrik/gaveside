@@ -4,7 +4,7 @@ title: 'Maris Ønsker'
 ---
 
 {% for post in collections.gave %}
-    {% if ('mari' in post.data.hvem.toLowerCase()) or ('begge' in post.data.hvem.toLowerCase()) %}
+    {% if ('mari' in post.data.hvem.toLowerCase()) %}
         {% include 'card.njk' %}
     {% endif %}
 {% endfor %}
